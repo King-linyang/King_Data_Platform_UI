@@ -1,11 +1,10 @@
 <template>
-    <div>内容</div>
+    <!-- 我是路由试图 -->
+    <router-view></router-view>
 </template>
 
 <script setup lang='ts'>
-import { ref, reactive } from 'vue'
 </script>
 
 <style scoped lang='less'>
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="king-main">
         <Header></Header>
         <Content></Content>
     </div>
@@ -9,8 +9,11 @@
 import { ref, reactive } from 'vue'
 import Header from './header/index.vue'
 import Content from './content/index.vue'
+
 </script>
     
 <style scoped lang='less'>
-
+.king-main {
+    background: burlywood;
+}
 </style>

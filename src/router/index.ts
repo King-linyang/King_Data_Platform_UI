@@ -8,7 +8,15 @@ const routes: Array<RouteRecordRaw> = [
     component: Layout,
     path: '/',
     children: [
-
+      {
+        path: '/king-data-solution',
+        name: 'KingDataSolution',
+        component: () => import('@/views/king-data-solution/index.vue')
+      }, {
+        path: '/king-job-solution',
+        name: 'KingJobSolution',
+        component: () => import('@/views/king-job-solution/index.vue')
+      }
     ]
   },
   // {
